@@ -15,6 +15,10 @@
 !/.config/
 # Include the .local directory
 !/.local/
+!builder/
+!images/
+!docs/
+
 # Exclude everything inside .config and .local directory
 /.config/*
 /.local/*
