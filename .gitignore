@@ -1,0 +1,34 @@
+# Exclude everything
+/*
+
+# Do not ignore these specific files
+!.zshrc
+!.bashrc
+!.xprofile
+!install.txt
+!.vimrc
+!packages.txt
+!.gitignore
+#Do not ignore ohmyposhthemes
+!ohmyposh_themes/
+# Include .config directory
+!/.config/
+# Include the .local directory
+!/.local/
+# Exclude everything inside .config and .local directory
+/.config/*
+/.local/*
+
+# Include specific subdirectories within .config
+!/.config/i3/
+!/.config/nvim/
+!/.config/ranger/
+!/.config/polybar/
+!/.config/kitty/
+!/.config/rofi/
+#Include specific subdirectories within .local
+!/.local/share/
+#Exclude everything from .local/share
+/.local/share/*
+#Include only the fonts directory
+!/.local/share/fonts
