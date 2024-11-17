@@ -6,7 +6,7 @@ cd /tmp/yay && makepkg -si
 #Install oh-my-posh
 yay -S oh-my-posh
 #Copy the .config directory
-cp -r /testing_arch/.config/ ~/
+cp -r /dotfiles_i3/.config/ ~/
 #Detect the user
 username=$(whoami)
 #Change the ownership of the .config file
@@ -15,19 +15,19 @@ sudo chown -R "$username:$username" "$directory"
 #Allowing the system to execute polybar
 sudo chmod +x $HOME/.config/polybar/launch.sh
 #Copy the .local directory
-cp -r /testing_arch/.local/ ~/
+cp -r /dotfiles_i3/.local/ ~/
 #Command to refresh the fonts
 fc-cache -fv
 #Copy the .zshrc file
-cp -r /testing_arch/.zshrc ~/
+cp -r /dotfiles_i3/.zshrc ~/
 #Copy .bashrc file
-cp -r /testing_arch/.bashrc ~/
+cp -r /dotfiles_i3/.bashrc ~/
 #Copy .gitignore file
-cp -r /testing_arch/.gitignore ~/
+cp -r /dotfiles_i3/.gitignore ~/
 #Copy .xprofile 
-cp -r /testing_arch/.xprofile ~/
+cp -r /dotfiles_i3/.xprofile ~/
 #Copy the ohmyposhthemes
-cp -r /testing_arch/ohmyposh_themes ~/
+cp -r /dotfiles_i3/ohmyposh_themes ~/
 #Create home directories
 mkdir $HOME/Pictures $HOME/Downloads $HOME/Documents $HOME/Desktop
 #Enable sddm 
