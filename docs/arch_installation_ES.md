@@ -97,4 +97,14 @@ cd arch-installation/
 chmod +x install_arch.sh
 # Ejecutar el script de instalación
 ./install_arch.sh
+#Después de ejecutar el script , podemos salir del chroot
+exit
+#Reiniciamos el sistema y accedemos con nuestros credenciales al sistema
+reboot
+#cambiamos de directorio
+cd /dotfiles/builder
+#ejecutamos el script 
+./config.sh
+#Reiniciamos el sistema y ya podemos usarlo!
+reboot
 ```

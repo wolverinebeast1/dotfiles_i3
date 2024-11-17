@@ -16,3 +16,5 @@ alias vim='nvim' #replacing classic with neovim
 alias movies='sudo mount -o rw /dev/sdb1 /media/movies' #temporary -> fstab
 alias night='redshift -O 3700K' #redshift
 alias pip='venv/bin/pip' #using pip as virtual environment
+#In case it chsh commands fails(Temporary solution)
+zsh
