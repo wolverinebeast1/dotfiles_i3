@@ -39,7 +39,7 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec kitty
 #start the broswer
-bindsym $mod+b exec brave
+bindsym $mod+b exec firefox
 #start the file manager
 bindsym $mod+e exec nemo
 #start rofi 

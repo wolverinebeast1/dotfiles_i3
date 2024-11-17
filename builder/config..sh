@@ -1,5 +1,5 @@
 #!/bin/bash
-RUN THIS SCRIPT AFTER INSTALLING ARCH!
+#sRUN THIS SCRIPT AFTER INSTALLING ARCH!
 #Install yay
 git -C /tmp clone https://aur.archlinux.org/yay.git
 cd /tmp/yay && makepkg -si
@@ -12,6 +12,8 @@ username=$(whoami)
 #Change the ownership of the .config file
 directory="$HOME/.config"
 sudo chown -R "$username:$username" "$directory"
+#Allowing the system to execute polybar
+sudo chmod +x $HOME/.config/polybar/launch.sh
 #Copy the .local directory
 cp -r /testing_arch/builder/.local/ ~/
 #Command to refresh the fonts
