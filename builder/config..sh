@@ -6,7 +6,7 @@ cd /tmp/yay && makepkg -si
 #Install oh-my-posh
 yay -S oh-my-posh
 #Copy the .config directory
-cp -r /testing_arch/builder/.config/ ~/
+cp -r /testing_arch/.config/ ~/
 #Detect the user
 username=$(whoami)
 #Change the ownership of the .config file
@@ -15,7 +15,7 @@ sudo chown -R "$username:$username" "$directory"
 #Allowing the system to execute polybar
 sudo chmod +x $HOME/.config/polybar/launch.sh
 #Copy the .local directory
-cp -r /testing_arch/builder/.local/ ~/
+cp -r /testing_arch/.local/ ~/
 #Command to refresh the fonts
 fc-cache -fv
 #Copy the .zshrc file
