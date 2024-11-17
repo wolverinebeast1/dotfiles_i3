@@ -2,7 +2,7 @@
 
 <h1 align="left"> :orange_book: About</h1> 
 
-<img src="/images/neofetch.PNG" alt="rice" align="right" width="500px">
+<img src="/images/neofetch.png" alt="rice" align="right" width="500px">
 
 </br>
 
