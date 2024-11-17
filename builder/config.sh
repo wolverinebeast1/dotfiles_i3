@@ -1,5 +1,5 @@
 #!/bin/bash
-#sRUN THIS SCRIPT AFTER INSTALLING ARCH!
+#RUN THIS SCRIPT AFTER INSTALLING ARCH!
 #Install yay
 git -C /tmp clone https://aur.archlinux.org/yay.git
 cd /tmp/yay && makepkg -si
