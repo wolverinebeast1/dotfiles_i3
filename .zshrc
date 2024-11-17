@@ -54,5 +54,4 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # Zoxide configuration
 eval "$(zoxide init zsh)"
-export GTK_THEME=Dracula
 

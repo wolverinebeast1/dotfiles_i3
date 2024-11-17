@@ -9,15 +9,18 @@
 !.vimrc
 !packages.txt
 !.gitignore
-#Do not ignore ohmyposhthemes
+!README.md
+#Do not ignore those directories
 !ohmyposh_themes/
+!builder/
+!images/
+!docs/
+!wallpapers/
 # Include .config directory
 !/.config/
 # Include the .local directory
 !/.local/
-!builder/
-!images/
-!docs/
+
 
 # Exclude everything inside .config and .local directory
 /.config/*

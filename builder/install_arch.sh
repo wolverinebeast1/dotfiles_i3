@@ -39,8 +39,8 @@ echo "KEYMAP=es" >> /etc/vconsole.conf
 # echo "KEYMAP=us" >> /etc/vconsole.conf
 
 #Variable that stores your hostname
-read -p -r 'Type the of the hostname: ' hostname_var
-read -s -r 'Type the of the hostname: ' hostname_var
+read -r -p 'Type the of the hostname: ' hostname_var
+read -r -p 'Type the of the hostname: ' hostname_var
 echo "$hostname_var" >> /etc/hostname
 
 #Redirecting the outputs to the config files of hosts
@@ -57,7 +57,7 @@ read -s -p 'Type the password for your root user: ' root_passwd
 echo root:$root_passwd | chpasswd
 
 #install the packages 
-pacman -S grub efibootmgr networkmanager pulseaudio dialog mtools dosfstools os-prober base base-devel firefox kitty neovim htop neofetch sddm lsd bat i3 i3lock polybar xclip xscreensaver ttf-jetbrains-mono tldr lxappearance unzip zip tar maim code zoxide rofi rofi-emoji nemo nitrogen npm
+pacman -S grub efibootmgr networkmanager pulseaudio dialog mtools dosfstools os-prober base base-devel firefox kitty neovim htop neofetch sddm lsd bat i3 i3lock polybar xclip xscreensaver ttf-jetbrains-mono tldr lxappearance unzip zip tar maim code zoxide rofi rofi-emoji nemo nitrogen npm telegram-desktop arandr picom zsh
 
 #NOTE: If you dont have any card you don't need to install nothing
 
@@ -79,7 +79,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 #enable services
 systemctl enable NetworkManager
-systemctl enable sddm
+#systemctl enable sddm
 setterm --foreground white
 #Name of the user
 read -p 'Type your username ' user_name

@@ -1,3 +1,4 @@
-nitrogen --restore &
+xrandr -s 1920x1080
+nitrogen --set-zoom-fill /testing_arch/wallpapers/1.jpg 
 setxkbmap -layout es,ru
-picom -b -f
+#picom -b -f
