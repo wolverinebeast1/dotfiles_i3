@@ -13,6 +13,29 @@
  - Terminal: [**`kitty`**](https://github.com/kovidgoyal/kitty)
  - App Launcher: [**`Rofi`**](https://github.com/davatorium/rofi)
  - Shell: [**`zsh`**](https://github.com/zsh-users/zsh)
+ - Powerline: [**`ohmyposh`** ](https://ohmyposh.dev/)
 
 </br>
+<!-- IMAGES -->
+
 ## 🖼️ Gallery
+
+![gallery](overall/1.png)
+![gallery](neovim/2.png)
+
+
+
+
+<!-- HOTKEYS -->
+## 💻 HotKeys
+* **Open the terminal** - `super + enter`
+* **Switch the layout** - `super + 9-0`
+* **Open the application menu** - `super + d`
+* **Close the window that is in focus** - `super + c`
+* **Take a screenshot** - `super + p`
+* **Restart i3** - `super + shift + r`
+* **Switch to another desktop** - `super + 1-6`
+* **Move the window to another desktop** - `super + shift + 1-6`
+* **Switch the window to floating mode** - `super + shift + space`
+
+The other hotkeys are in `~/.config/i3/config`.
