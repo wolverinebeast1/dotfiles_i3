@@ -26,7 +26,7 @@
 
 <!-- INSTALLATION -->
 ## :blue_book: Installation
-A guide to installing the system and graphical shell via builder: [EN](docs/arch_installation_EN.md), [ES](docs/arch_insllation_ES.md). 
+A guide to installing the system and graphical shell via builder: [EN](docs/arch_installation_EN.md), [ES](docs/arch_installation_ES.md). 
 
 <!-- HOTKEYS -->
 ## 💻 HotKeys
