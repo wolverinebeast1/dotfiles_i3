@@ -20,8 +20,8 @@
 
 ## 🖼️ Gallery
 
-![gallery](overall/1.png)
-![gallery](neovim/2.png)
+![gallery](images/overall.png)
+![gallery](images/neovim.png)
 
 
 
